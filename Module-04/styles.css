@@ -1,0 +1,62 @@
+/* Global Reset and Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    list-style: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Set background image to body instead of all elements */
+body {
+    background-image: url('bgp7b.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: rgb(92, 135, 135);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+/* Navigation items */
+nav ul li {
+    display: inline;
+    margin-right: 66px;
+}
+
+/* Centered heading */
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Figure styling */
+figure {
+    margin: 20px auto;
+    width: max-content;
+}
+
+/* Paragraph container spacing */
+div {
+    margin-bottom: 20px;
+}
+
+/* Footer at the bottom center */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* makes text readable */
+    padding: 10px 0;
+}
